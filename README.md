@@ -12,6 +12,7 @@ Then, look up two important values:
 
 Now you can call the program:
 `./clawspeek SALT PASSWORD [...]`
+Note that the you have to put the password in single quotes since it begins with a brace.
 
 It extracts your plaintext passwords and writes them to the command line, nothing else. I promise.
 
@@ -23,4 +24,4 @@ You can simply feed it as the second parameter to `password_decrypt`, or fix thi
 There are already two tools for extracting passwords from Claws: [mones/clawspeek](https://github.com/mones/clawspeek) and [b4n/clawsmail-password-decrypter](https://github.com/b4n/clawsmail-password-decrypter).
 Unfortunately for them, Claws has changed the method for password scrambling in 2016, and neither of these programs have been updated.
 
-I could not bear the disgrace of resetting my mail password, so I copied the important parts of Claws source code, and added the simplest `main` function possible.
+I could not bear the disgrace of resetting my mail password, so I copied the parts of Claws source code that are relevant to password decryption, and added a tiny `main` function.
