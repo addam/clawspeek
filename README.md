@@ -8,7 +8,7 @@ You will probably need `libglib2.0-dev` and `libgnutls28-dev` for that.
 Then, look up two important values:
 
  * `master_passphrase_salt` from the `.claws-mail/clawsrc` file and
- * all the scrambled passwords from the `.claws_mail/passwordrc` file.
+ * all the scrambled passwords from the `.claws-mail/passwordstorerc` file.
 
 Now you can call the program:
 `./clawspeek SALT PASSWORD [...]`
