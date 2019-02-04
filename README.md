@@ -3,7 +3,7 @@ This is a simple tool to recover your password from a Claws configuration file.
 # Usage
 
 First off, just say `make` to compile the program.
-You will probably need `libglib2.0-dev` and `libgnutls28-dev` for that.
+You will probably need `libglib2.0-dev`, `libgnutls28-dev` and `libnettle6` for that.
 
 Then, look up two important values:
 
