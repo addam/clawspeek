@@ -1,5 +1,7 @@
 This is a simple tool to recover your password from a Claws configuration file.
 
+As of claws-mail 3.16 (released 2017), passwords can be shown using a checkbox so this tool is no longer necessary.
+
 # Usage
 
 First off, just say `make` to compile the program.
